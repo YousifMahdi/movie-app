@@ -10,32 +10,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
-    <section id="landing-page">
-        <nav>
-            <div class="nav__container">
-                <figure class="nav__logo">
-                    <img src="assets/logo.png" class="nav__logo--img">
-                </figure>
-                <ul class="nav__links">
-                    <li class="nav__link"><a href="#" class="nav__link--anchor link__hover--effect link__hover--effect--black">Home</a></li>
-                    <li class="nav__link"><a href="#" class="nav__link--anchor link__hover--effect link__hover--effect--black">Find a movie</a></li>
-                    <li class="nav__link"><a href="#" class="nav__link--anchor link__hover--effect contact__link">Contact</a></li>
-                    <li class="nav__link" onclick = "toggleContrast()"><a href="#" class="nav__link--anchor link__hover--effect link__hover--effect--black icon__transform"><i class="fa-solid fa-circle-half-stroke"></i></a></li>
-                </ul>
-            </div>
-        </nav>
-        <heading>
-            <div class="main__row">
-                <h1 class="heading__title">The UAE's most awarded Movie watching platform.</h1>
-                <h3 class="heading__subtitle">Find your movie at <span class="special__text">Easy View</span>.</h3>
-                <div class="search__bar">
-                    <input type="search" placeholder="Search movie..." class="search__bar--input">
+    <header>
+        <form id="form">
+            <input type="text" id="search" class="search" placeholder="Search movie...">
+        </form>
+    </header>
+    <main id="main">
+        <div class="movie">
+            <img src="assets/GATSBY.jpg" alt="">
+            <div class="movie-info">
+                <h3>Movie Title</h3>
+                <span>9.7</span>
+                <div class="overview">
+                    <h3>Overview</h3>
+                    <p>ipsum dolor sit, amet consectetur adipisicing elit. Ut
+                     obcaecati eos officia exercitationem quibusdam nulla fuga
+                      dignissimos cumque. A repudiandae numquam possimus quas
+                       aliquam aspernatur saepe dolorem expedita iste beatae?</p>
                 </div>
-                <figure class="background__pic">
-                    <img src="assets/undraw_home_cinema_l7yl (1).svg" class="background__img">
-                </figure>
-            </div>              
-        </heading>
-    </section>         
+            </div>
+
+        </div>
+    </main>      
 </body>
 </html>
